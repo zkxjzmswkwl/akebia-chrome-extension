@@ -3,12 +3,11 @@
   <style>
   .wrapper {
     margin: 0;
-    padding: 1rem;
   }
   body {
-    background-color: #323232;
-    color: #ccc;
-    font-family: Verdana;
+    background-color: #eee;
+    color: #424242;
+    font-family: Arial;
     font-size: 13px;
     width: 14rem;
     height: 18rem;
@@ -19,26 +18,32 @@
   .wilt-text {
     margin-bottom: 1rem;
     display: block;
-    padding: .1rem;
+    padding: .5rem;
     border-radius: 3px;
-    border: 1px solid #191919;
-    background-color: #282828;
-    color: #ccc;
+    border: 1px solid #997ea7;
+    background-color: #ccc;
+    color: #424242;
+    width: 100%;
   }
   .wilt-button {
     display: block;
     border-radius: 3px;
-    border: none;
-    background-color: #008CBC;
+    background-color: #997ea7;
     color: #FFF;
-    padding: .3rem;
+    padding: .5rem;
     margin-top: .5rem;
+    width: 100%;
+  }
+  h2 {
+      text-align: center;
   }
   </style>
 </head>
 <body>
   <div class="wrapper">
-    <h4>Sign into Akebia</h4> 
+    <h2>Sign into Akebia</h2> 
+    <h4>Logged in:</h4>
+    <h4>Listening Status:</h4>
     <div class="input-wrapper">
       <input id="uname" type="text" class="wilt-text" placeholder="Username">
       <input id="passwd" type="password" class="wilt-text" placeholder="Password">
