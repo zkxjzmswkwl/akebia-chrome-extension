@@ -18,7 +18,7 @@ function post(vidId)
     chrome.runtime.sendMessage({
         method: 'POST',
         action: 'xhttp',
-        url: 'https://dmca.beverlydrive.dev/api/members/change_yt_song/',
+        url: 'http://localhost:8000/api/members/change_yt_song/',
         data: `watchId=${vidId}`,
         drf: drfHeader
     }, function (resp) {

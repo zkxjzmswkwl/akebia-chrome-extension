@@ -1,5 +1,5 @@
-//let API = 'http://localhost:8000/api/';
-let API = 'https://dmca.beverlydrive.dev/api/';
+let API = 'http://localhost:8000/api/';
+//let API = 'https://dmca.beverlydrive.dev/api/';
 let listenState = 'false';
 
 function updateState()
